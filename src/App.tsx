@@ -1,10 +1,9 @@
-import "./App.css";
-
+import Header from '@/components/header/Header';
 function App() {
   return (
-    <>
-      <h1 className="text-3xl ">Portfolio</h1>
-    </>
+    <header className="w-[90%] mx-auto mt-6">
+      <Header />
+    </header>
   );
 }
 
