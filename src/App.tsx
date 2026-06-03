@@ -20,7 +20,7 @@ function App() {
       </section>
       <section className="w-[95%] mx-auto pt-20 flex flex-col items-center gap-4">
         <h2 className="text-4xl font-light">Education</h2>
-        <p className="text-lg text-gray-700 font-light">
+        <p className="text-lg text-gray-700 font-light mb-12">
           개발을 시작한 이례로 학습과 성장을 쌓아가고 있습니다.
         </p>
         {educationData.length > 0 &&
