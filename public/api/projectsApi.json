@@ -1,0 +1,35 @@
+[
+  {
+    "description": "온라인 강의와 스터디 문화를 결합한 IT 학습 플랫폼",
+    "title": "StudyHub",
+    "period": "2025.11 - 2025.12",
+    "members": "FE-3명, BE-4명",
+    "techStack": [
+      "TypeScript",
+      "React",
+      "TailwindCss",
+      "MSW",
+      "VITE",
+      "Tanstack-query",
+      "Zustand",
+      "React-Hook-Form"
+    ],
+    "githubUrl": "https://github.com/cks-wls/oz_externship_fe_04_team1",
+    "figmaUrl": "https://www.figma.com/design/wODos4K4lXwQFCfPjL7jLA/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD--StudyHub----13%EA%B8%B0?node-id=0-1&p=f&t=9fviBYz0AW3lJWn1-0",
+    "videoUrl": "https://github.com/user-attachments/assets/5940c8b1-b752-4f1b-b3f5-f80864793e3f",
+    "state": "canceled",
+    "stateText": "서비스 중단"
+  },
+  {
+    "description": "지역 생산자와 소비자를 바로 잇는 직거래 플랫폼",
+    "title": "G2G",
+    "period": "2025.10 - 2025.11",
+    "members": "FE-2명, BE-4명",
+    "techStack": ["TypeScript", "React", "SCSS", "MSW", "VITE"],
+    "githubUrl": "https://github.com/cks-wls/Frontend-G2G",
+    "figmaUrl": "https://www.figma.com/design/pIfFlfkDcyGfZsZNGjPOgM/G2G--%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1",
+    "videoUrl": "https://github.com/user-attachments/assets/35be538d-a482-4e54-b440-d3753a947cd1",
+    "state": "canceled",
+    "stateText": "서비스 중단"
+  }
+]
