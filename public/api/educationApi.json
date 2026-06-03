@@ -1,0 +1,42 @@
+[
+  {
+    "company": "오즈코딩스쿨",
+    "course": "프론트엔드 13기",
+    "state": "completed",
+    "stateText": "수료",
+    "location": "온라인",
+    "duration": "2025.07 - 2025.12",
+    "description": [
+      "HTML, CSS, Javascript, React, TypeScript를 이용한 웹 프로그래밍 교육 과정 이수",
+      "지역 생산자와 소비자를 잇는 직거래 플랫폼 G2G, IT학습 플랫폼 StudyHub 프론트엔드 리더 역할 수행"
+    ],
+    "achievement": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "프로젝트 관리",
+      "팀 리더십"
+    ]
+  },
+  {
+    "company": "한양대학교 ERICA",
+    "course": "ICT융합학부 미디어테크놀로지 전공",
+    "state": "inProgress",
+    "stateText": "졸업예정",
+    "location": "경기도 안산",
+    "duration": "2019.03 - 2026.08",
+    "description": [
+      "ICT융합학부 전공으로 폭 넓은 기술적 기반을 다짐",
+      "UI/UX 전공 교과를 통한 사용자 중심 인터페이스 설계능력 향상",
+      "학과 활동을 통한 유연한 소통 및 다방면의 협업 능력 개발"
+    ],
+    "achievement": [
+      "기술 융합 사고력",
+      "사용자 중심 UI/UX 설계 역량",
+      "협업",
+      "소통능력"
+    ]
+  }
+]
