@@ -63,4 +63,5 @@ function EducationBox({ education }: { education: EducationType }) {
   );
 }
 // 이후에 데이터 받아와서 map으로 매핑하는 것 필요
+// 이후 shadow, left design. hover 추가히기
 export default EducationBox;
