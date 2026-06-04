@@ -2,6 +2,8 @@ import Header from '@/components/header/Header';
 import Introduction from '@/components/introduction/Introduction';
 import EducationBox from '@/components/common/EducationBox';
 import ProjectsBox from '@/components/common/ProjectsBox';
+import Footer from '@/components/footer/Footer';
+import FooterBottom from '@/components/footer/FooterBottom';
 import { useEffect, useState } from 'react';
 function App() {
   const [educationData, setEducationData] = useState([]);
@@ -17,6 +19,7 @@ function App() {
   }, []);
   return (
     <>
+      {/* 헤더 부분 */}
       <header className="w-[90%] mx-auto mt-6">
         <Header />
       </header>
@@ -35,7 +38,7 @@ function App() {
           ))}
       </section>
       {/* projects 파트 */}
-      <section className="pt-20 flex flex-col items-center">
+      <section id="Projects" className="pt-20 flex flex-col items-center">
         <h2 className="text-4xl font-light mb-4">Projects</h2>
         <p className="text-lg text-gray-700 font-light mb-12">
           이미지를 클릭하여 프로젝트의 상세 과정과 결과를 확인해 보세요.
@@ -45,6 +48,9 @@ function App() {
             <ProjectsBox key={index} index={index} projectData={value} />
           ))}
       </section>
+      {/* 푸터 부분 */}
+      <Footer />
+      <FooterBottom />
     </>
   );
 }
