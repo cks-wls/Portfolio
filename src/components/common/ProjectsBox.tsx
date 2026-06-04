@@ -3,7 +3,7 @@ import StateBtn from '@/components/common/StateBtn';
 import TechBtn from '@/components/common/TechBtn';
 import LinkToGitHubBtn from '@/components/common/LinkToGitHubBtn';
 import LinkToFigmaBtn from '@/components/common/LinkToFigmaBtn';
-import arrowIcon from '@/assets/icons/arrow.svg';
+// import arrowIcon from '@/assets/icons/arrow.svg';
 function ProjectsBox({
   projectData,
   index,
@@ -33,8 +33,9 @@ function ProjectsBox({
         <div className="absolute top-0 text-white flex flex-col  gap-4 w-full h-full justify-center items-center">
           <p className="text-6xl">{projectData.title}</p>
           <section className="cursor-pointer hover:[transform:translateX(20px)] transition-transform duration-500">
-            <p className="text-xl text-center">Project Detail</p>
-            <img src={arrowIcon} />
+            {/* 이부분 추후에 더 작성하기 */}
+            {/* <p className="text-xl text-center">Project Detail</p> */}
+            {/* <img src={arrowIcon} /> */}
           </section>
         </div>
       </div>
