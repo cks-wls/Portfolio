@@ -2,7 +2,10 @@ import TechBtn from '@/components/common/TechBtn';
 import { focusText } from '@/constant/focusText';
 function Introduction() {
   return (
-    <div className="w-full flex flex-col lg:flex-row lg:gap-12 lg:justify-center">
+    <div
+      id="About"
+      className="w-full flex flex-col lg:flex-row lg:gap-12 lg:justify-center"
+    >
       {/* 이름 및 자기소개 파트 */}
       <div>
         <p className="text-xs text-gray-500 mb-3 font-light sm:text-sm">
