@@ -35,14 +35,14 @@ function App() {
           ))}
       </section>
       {/* projects 파트 */}
-      <section className="pt-20 flex flex-col items-center gap-4">
-        <h2 className="text-4xl font-light">Projects</h2>
+      <section className="pt-20 flex flex-col items-center">
+        <h2 className="text-4xl font-light mb-4">Projects</h2>
         <p className="text-lg text-gray-700 font-light mb-12">
           이미지를 클릭하여 프로젝트의 상세 과정과 결과를 확인해 보세요.
         </p>
         {projectData.length > 0 &&
           projectData.map((value, index) => (
-            <ProjectsBox key={index} projectData={value} />
+            <ProjectsBox key={index} index={index} projectData={value} />
           ))}
       </section>
     </>
