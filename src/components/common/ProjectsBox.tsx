@@ -3,7 +3,9 @@ import StateBtn from '@/components/common/StateBtn';
 import TechBtn from '@/components/common/TechBtn';
 import LinkToGitHubBtn from '@/components/common/LinkToGitHubBtn';
 import LinkToFigmaBtn from '@/components/common/LinkToFigmaBtn';
-// import arrowIcon from '@/assets/icons/arrow.svg';
+import arrowIcon from '@/assets/icons/arrow.svg';
+import { useNavigate } from 'react-router-dom';
+import { ROUTE_PATHS } from '@/constant/routePaths';
 function ProjectsBox({
   projectData,
   index,
@@ -11,6 +13,7 @@ function ProjectsBox({
   projectData: ProjectsType;
   index: number;
 }) {
+  const navigate = useNavigate();
   return (
     // index가 홀수일때는 비디오가 왼쪽, 짝수일때는 비디오가 오른쪽으로 되게(md 이상일때)
     <div
@@ -32,10 +35,15 @@ function ProjectsBox({
         {/* detail 페이지 이동 부분 */}
         <div className="absolute top-0 text-white flex flex-col  gap-4 w-full h-full justify-center items-center">
           <p className="text-6xl">{projectData.title}</p>
-          <section className="cursor-pointer hover:[transform:translateX(20px)] transition-transform duration-500">
+          <section
+            className="cursor-pointer hover:[transform:translateX(20px)] transition-transform duration-500"
+            onClick={() =>
+              navigate(ROUTE_PATHS.PROJECT_DETAIL(projectData.title))
+            }
+          >
             {/* 이부분 추후에 더 작성하기 */}
-            {/* <p className="text-xl text-center">Project Detail</p> */}
-            {/* <img src={arrowIcon} /> */}
+            <p className="text-xl text-center">Project Detail</p>
+            <img src={arrowIcon} />
           </section>
         </div>
       </div>
