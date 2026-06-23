@@ -26,8 +26,8 @@ function StudyHub() {
         <ChevronLeft strokeWidth={1.5} />
         <p>프로젝트 목록으로</p>
       </section>
-      {/* 이미지 */}
-      <p>이미지</p>
+      {/* 이미지 들어갈 부분*/}
+      {/* <p>이미지</p> */}
       {/* 제목, 설명, 기술버튼 */}
       <div className="flex flex-col gap-3">
         <section className="flex gap-3 items-center justify-between">
