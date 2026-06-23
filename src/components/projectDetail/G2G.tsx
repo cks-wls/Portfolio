@@ -3,12 +3,21 @@ import LinkToFigmaBtn from '@/components/common/LinkToFigmaBtn';
 import StateBtn from '@/components/common/StateBtn';
 import DetailBtn from '@/components/common/DetailBtn';
 import { Dot } from 'lucide-react';
+import { ChevronLeft } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 function G2G() {
   const tech = ['React', 'TypeScript', 'Scss', 'MSW'];
+  const navigate = useNavigate();
   return (
     <div className="p-[64px_16px] gap-8 flex flex-col sm:px-6 lg:px-8">
       {/* 프로젝트 목록으로 */}
-      <p>프로젝트 목록으로</p>
+      <section
+        className="text-sm inline-flex gap-2 items-center w-[150px] h-[30px] text-gray-500 hover:bg-gray-200 hover:text-black hover:rounded-md"
+        onClick={() => navigate(-1)}
+      >
+        <ChevronLeft strokeWidth={1.5} />
+        <p>프로젝트 목록으로</p>
+      </section>
       {/* 이미지 */}
       <p>이미지</p>
       {/* 제목, 설명, 기술버튼 */}
