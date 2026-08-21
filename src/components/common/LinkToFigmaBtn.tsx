@@ -10,9 +10,7 @@ function LinkToFigmaBtn({ link }: { link: string }) {
       onClick={() => linkToFigma({ link })}
     >
       <img src={figmaBeforeHover} alt="FigmaLogo" />
-      <p className="hidden md:block md:text-md md:text-extrabold">
-        프로토타입 보러가기
-      </p>
+      <p className="hidden sm:block sm:text-md sm:text-extrabold">프로토타입</p>
     </button>
   );
 }

@@ -10,7 +10,7 @@ function LinkToGitHubBtn({ link }: { link: string }) {
       onClick={() => linkToGithub({ link })}
     >
       <img src={beforeHoverGitHubIcon} alt="GitHubLogo" />
-      <p className="hidden md:block md:text-md md:text-bold ">GitHub</p>
+      <p className="hidden sm:block sm:text-md sm:text-bold ">GitHub</p>
     </button>
   );
 }
