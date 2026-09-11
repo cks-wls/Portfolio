@@ -1,1 +1,1 @@
-export const focusText = ['React', 'TypeScript'];
+export const focusText = ['Java', 'React', 'TypeScript', 'JavaScript'];
